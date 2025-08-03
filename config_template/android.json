@@ -189,7 +189,6 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -296,9 +295,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
+        "Proxy",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
