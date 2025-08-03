@@ -176,6 +176,25 @@
       ]
     },
     {
+      "tag": "Meta",
+      "type": "selector",
+      "outbounds": [
+        "🇺🇸 US AUTO",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇭🇰 HongKong",
+        "🇹🇼 TaiWan",
+        "🇸🇬 Singapore",
+        "🇯🇵 Japan",
+        "🇰🇷 Korea",
+        "🇺🇸 America",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
+      ],
+      "default": "🇺🇸 US AUTO"
+    },
+    {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
@@ -214,39 +233,6 @@
       "default": "🇸🇬 Singapore"
     },
     {
-      "tag": "Meta",
-      "type": "selector",
-      "outbounds": [
-        "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇺🇸 America",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
-        "🏳️‍🌈 Others"
-      ],
-      "default": "🇺🇸 US AUTO"
-    },
-    {
-      "tag": "Spotify",
-      "type": "selector",
-      "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇺🇸 America",
-        "🏳️‍🌈 Others"
-      ],
-      "default": "🇹🇼 TaiWan"
-    },
-    {
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
@@ -261,6 +247,20 @@
         "🇺🇸 America",
         "🇬🇧 United Kingdom",
         "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
+      ],
+      "default": "🇹🇼 TaiWan"
+    },
+    {
+      "tag": "Spotify",
+      "type": "selector",
+      "outbounds": [
+        "🇭🇰 HongKong",
+        "🇹🇼 TaiWan",
+        "🇸🇬 Singapore",
+        "🇯🇵 Japan",
+        "🇰🇷 Korea",
+        "🇺🇸 America",
         "🏳️‍🌈 Others"
       ],
       "default": "🇹🇼 TaiWan"
