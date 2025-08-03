@@ -136,35 +136,6 @@
       ]
     },
     {
-      "tag": "Github",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🏳️‍🌈 Others"
-      ]
-    },
-    {
-      "tag": "BiliBili",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea"
-      ]
-    },
-    {
       "tag": "Youtube",
       "type": "selector",
       "outbounds": [
@@ -195,6 +166,39 @@
         "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ]
+    },
+    {
+      "tag": "Meta",
+      "type": "selector",
+      "outbounds": [
+        "🇺🇸 US AUTO",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇭🇰 HongKong",
+        "🇹🇼 TaiWan",
+        "🇸🇬 Singapore",
+        "🇺🇸 America",
+        "🇯🇵 Japan",
+        "🇰🇷 Korea",
+        "🏳️‍🌈 Others"
+      ],
+      "default": "🇺🇸 America"
+    },
+    {
+      "tag": "TikTok",
+      "type": "selector",
+      "outbounds": [
+        "🇺🇸 US AUTO",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇹🇼 TaiWan",
+        "🇸🇬 Singapore",
+        "🇺🇸 America",
+        "🇯🇵 Japan",
+        "🇰🇷 Korea",
+        "🏳️‍🌈 Others"
+      ],
+      "default": "🇹🇼 TaiWan"
     },
     {
       "tag": "Telegram",
@@ -231,9 +235,10 @@
       "default": "🇸🇬 Singapore"
     },
     {
-      "tag": "Meta",
+      "tag": "Github",
       "type": "selector",
       "outbounds": [
+        "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
@@ -244,24 +249,19 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🏳️‍🌈 Others"
-      ],
-      "default": "🇺🇸 America"
+      ]
     },
     {
-      "tag": "TikTok",
+      "tag": "BiliBili",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
+        "direct",
+        "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🏳️‍🌈 Others"
-      ],
-      "default": "🇹🇼 TaiWan"
+        "🇰🇷 Korea"
+      ]
     },
     {
       "tag": "Onedrive",
