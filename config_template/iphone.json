@@ -266,6 +266,8 @@
       "tag": "Crypto",
       "type": "selector",
       "outbounds": [
+        "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -273,9 +275,7 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
-        "🏳️‍🌈 Others",
-        "direct"
+        "🇩🇪 Germany"
       ],
       "default": "🇰🇷 Korea"
     },
@@ -753,10 +753,11 @@
       },
       {
         "domain_suffix": [
-          "axac.dpdns.org",
+          "tradingview.com",
           "vercel.app",
           "gitlab.com",
-          "claw.cloud"
+          "claw.cloud",
+          "axac.dpdns.org"
         ],
         "outbound": "Proxy"
       },
@@ -778,7 +779,6 @@
         "outbound": "🇬🇧 United Kingdom"
       },
       {
-        "domain_suffix": "tradingview.com",
         "rule_set": "geosite-category-cryptocurrency",
         "outbound": "Crypto"
       },
