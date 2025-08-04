@@ -627,10 +627,11 @@
       },
       {
         "domain_suffix": [
-          "axac.dpdns.org",
+          "tradingview.com",
           "vercel.app",
+          "claw.cloud",
           "gitlab.com",
-          "claw.cloud"
+          "axac.dpdns.org"
         ],
         "outbound": "Proxy"
       },
@@ -651,7 +652,6 @@
         "outbound": "Youtube"
       },
       {
-        "domain_suffix": "tradingview.com",
         "rule_set": [
           "geosite-googlevoice",
           "geoip-google",
