@@ -237,7 +237,6 @@
         "🇺🇸 US AUTO",
         "🇹🇼 TW AUTO",
         "🏳️‍🌈 Others",
-        "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
         "🇺🇸 America",
@@ -284,6 +283,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
+        "🏳️‍🌈 Others",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
@@ -294,8 +294,7 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
-        "🏳️‍🌈 Others"
+        "🇩🇪 Germany"
       ]
     },
     {
@@ -303,25 +302,22 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
+        "🏳️‍🌈 Others",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🏳️‍🌈 Others"
-      ]
+        "🇰🇷 Korea"      ]
     },
     {
       "tag": "Onedrive",
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
-        "🇺🇸 America",
         "🏳️‍🌈 Others"
       ]
     },
@@ -330,7 +326,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
+        "🏳️‍🌈 Others",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -338,8 +334,7 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
-        "🏳️‍🌈 Others"
+        "🇩🇪 Germany"
       ],
       "default": "🇺🇸 America"
     },
@@ -365,7 +360,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
+        "🏳️‍🌈 Others"
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -373,8 +368,7 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
-        "🏳️‍🌈 Others"
+        "🇩🇪 Germany"
       ],
       "default": "🇭🇰 HongKong"
     },
