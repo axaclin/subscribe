@@ -316,10 +316,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
+        "🏳️‍🌈 Others",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
-        "🏳️‍🌈 Others"
+        "🇸🇬 Singapore",
+        "🇺🇸 America"
       ]
     },
     {
