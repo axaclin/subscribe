@@ -378,12 +378,10 @@
       "tag": "Overseas",
       "type": "selector",
       "outbounds": [
-        "Proxy",
-        "direct",
-        "🏳️‍🌈 Others",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
+        "🏳️‍🌈 Others",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -391,7 +389,9 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "Proxy",
+        "direct",
       ]
     },
     {
