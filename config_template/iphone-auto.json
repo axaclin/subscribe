@@ -130,29 +130,29 @@
       "tag": "OpenAI",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇺🇸 America"
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Youtube",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇺🇸 America",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇺🇸 US AUTO",
+        "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -160,14 +160,14 @@
       "tag": "Google",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇺🇸 America",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇺🇸 US AUTO",
+        "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -175,110 +175,110 @@
       "tag": "Meta",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇺🇸 US AUTO",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇺🇸 America"
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇺🇸 America"
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Twitter",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇸🇬 Singapore"
+      "default": "🇸🇬 SG AUTO"
     },
     {
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇹🇼 TaiWan"
+      "default": "🇹🇼 TW AUTO"
     },
     {
       "tag": "Spotify",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇹🇼 TaiWan"
+      "default": "🇹🇼 TW AUTO"
     },
     {
       "tag": "Crypto",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others",
         "direct"
       ],
-      "default": "🇰🇷 Korea"
+      "default": "🇰🇷 KR AUTO"
     },
     {
       "tag": "Github",
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -287,12 +287,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -301,9 +301,9 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇺🇸 America",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇺🇸 US AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -312,31 +312,31 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇺🇸 America",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇺🇸 US AUTO",
+        "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇺🇸 America"
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Apple",
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -346,29 +346,29 @@
       "outbounds": [
         "direct",
         "Proxy",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇰🇷 KR AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇭🇰 HongKong"
+      "default": "🇭🇰 HK AUTO"
     },
     {
       "tag": "Overseas",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others",
         "Proxy",
         "direct"
@@ -383,7 +383,7 @@
       ]
     },
     {
-      "tag": "🇭🇰 HongKong",
+      "tag": "🇭🇰 HK AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -407,7 +407,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇹🇼 TaiWan",
+      "tag": "🇹🇼 TW AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -431,7 +431,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇸🇬 Singapore",
+      "tag": "🇸🇬 SG AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -455,7 +455,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇺🇸 America",
+      "tag": "🇺🇸 US AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -479,7 +479,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇯🇵 Japan",
+      "tag": "🇯🇵 JP AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -503,7 +503,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇰🇷 Korea",
+      "tag": "🇰🇷 KR AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -527,7 +527,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇬🇧 United Kingdom",
+      "tag": "🇬🇧 UK AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -551,7 +551,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇩🇪 Germany",
+      "tag": "🇩🇪 DE AUTO",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -677,7 +677,7 @@
           "geosite-helium",
           "geosite-paypal"
         ],
-        "outbound": "🇺🇸 America"
+        "outbound": "🇺🇸 US AUTO"
       },
       {
         "domain_suffix": [
@@ -697,14 +697,14 @@
           "monese.com"
         ],
         "rule_set": "geosite-n26",
-        "outbound": "🇩🇪 Germany"
+        "outbound": "🇩🇪 DE AUTO"
       },
       {
         "rule_set": [
           "geosite-wise",
           "geosite-ifast"
         ],
-        "outbound": "🇬🇧 United Kingdom"
+        "outbound": "🇬🇧 UK AUTO"
       },
       {
         "rule_set": "geosite-category-cryptocurrency",
@@ -908,34 +908,6 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geoip-telegram",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-telegram",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/telegram.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-twitter",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/twitter.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-twitter",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
-        "download_detour": "direct"
-      },
-      {
         "tag": "geosite-whatsapp",
         "type": "remote",
         "format": "binary",
@@ -968,6 +940,34 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
         "download_detour": "direct"
       },
       {
