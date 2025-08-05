@@ -253,6 +253,8 @@
       "tag": "Crypto",
       "type": "selector",
       "outbounds": [
+        "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
@@ -260,9 +262,7 @@
         "🇯🇵 JP AUTO",
         "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others",
-        "direct"
+        "🇩🇪 DE AUTO"
       ],
       "default": "🇰🇷 KR AUTO"
     },
@@ -271,6 +271,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
@@ -278,8 +279,7 @@
         "🇯🇵 JP AUTO",
         "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others"
+        "🇩🇪 DE AUTO"
       ]
     },
     {
@@ -287,13 +287,13 @@
       "type": "selector",
       "outbounds": [
         "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
         "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
-        "🏳️‍🌈 Others"
+        "🇰🇷 KR AUTO"
       ]
     },
     {
@@ -301,10 +301,10 @@
       "type": "selector",
       "outbounds": [
         "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🇺🇸 US AUTO",
-        "🏳️‍🌈 Others"
+        "🇺🇸 US AUTO"
       ]
     },
     {
@@ -312,15 +312,15 @@
       "type": "selector",
       "outbounds": [
         "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🇺🇸 US AUTO",
         "🇸🇬 SG AUTO",
+        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
         "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others"
+        "🇩🇪 DE AUTO"
       ],
       "default": "🇺🇸 US AUTO"
     },
@@ -329,6 +329,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
+        "🏳️‍🌈 Others",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
@@ -336,8 +337,7 @@
         "🇯🇵 JP AUTO",
         "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others"
+        "🇩🇪 DE AUTO"
       ]
     },
     {
@@ -362,6 +362,8 @@
       "tag": "Overseas",
       "type": "selector",
       "outbounds": [
+        "Proxy",
+        "direct",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
@@ -369,9 +371,7 @@
         "🇯🇵 JP AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others",
-        "Proxy",
-        "direct"
+        "🏳️‍🌈 Others"
       ]
     },
     {
