@@ -269,10 +269,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
+        "🏳️‍🌈 Others",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
-        "🏳️‍🌈 Others"
+        "🇸🇬 Singapore",
+        "🇺🇸 America"
       ]
     },
     {
@@ -298,23 +299,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea"
-      ]
-    },
-    {
-      "tag": "Overseas",
-      "type": "selector",
-      "outbounds": [
         "Proxy",
-        "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -322,6 +307,23 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🏳️‍🌈 Others",
+      ]
+    },
+    {
+      "tag": "Overseas",
+      "type": "selector",
+      "outbounds": [
+        "🇺🇸 US AUTO",
+        "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
+        "🏳️‍🌈 Others",
+        "🇭🇰 HongKong",
+        "🇹🇼 TaiWan",
+        "🇸🇬 Singapore",
+        "🇺🇸 America",
+        "🇯🇵 Japan",
+        "🇰🇷 Korea",
+        "Proxy",
         "direct"
       ]
     },
