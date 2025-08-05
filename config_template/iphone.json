@@ -361,7 +361,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "Proxy",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -369,7 +369,8 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇭🇰 HongKong"
     },
@@ -378,6 +379,8 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
+        "direct",
+        "🏳️‍🌈 Others",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
@@ -388,9 +391,7 @@
         "🇯🇵 Japan",
         "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany",
-        "🏳️‍🌈 Others",
-        "direct"
+        "🇩🇪 Germany"
       ]
     },
     {
