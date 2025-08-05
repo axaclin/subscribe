@@ -663,6 +663,16 @@
       },
       {
         "rule_set": [
+          "geosite-whatsapp",
+          "geosite-threads",
+          "geosite-instagram",
+          "geoip-facebook",
+          "geosite-facebook"
+        ],
+        "outbound": "Meta"
+      },
+      {
+        "rule_set": [
           "geoip-telegram",
           "geosite-telegram"
         ],
@@ -674,15 +684,6 @@
           "geosite-twitter"
         ],
         "outbound": "Twitter"
-      },
-      {
-        "rule_set": [
-          "geosite-whatsapp",
-          "geosite-instagram",
-          "geoip-facebook",
-          "geosite-facebook"
-        ],
-        "outbound": "Meta"
       },
       {
         "rule_set": "geosite-tiktok",
