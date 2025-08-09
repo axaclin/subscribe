@@ -692,6 +692,13 @@
       },
       {
         "domain_suffix": [
+          "mexc.com",
+          "mexcsensors.com"
+        ],
+        "outbound": "🇹🇼 TaiWan"
+      },
+      {
+        "domain_suffix": [
           "coinbase.com",
           "neverless.com",
           "myfin.bg",
@@ -706,10 +713,6 @@
           "geosite-ifast"
         ],
         "outbound": "🇬🇧 UK AUTO"
-      },
-      {
-        "rule_set": "geosite-category-cryptocurrency",
-        "outbound": "Crypto"
       },
       {
         "rule_set": "geosite-openai",
@@ -766,6 +769,10 @@
       {
         "rule_set": "geosite-tiktok",
         "outbound": "TikTok"
+      },
+      {
+        "rule_set": "geosite-category-cryptocurrency",
+        "outbound": "Crypto"
       },
       {
         "rule_set": [
@@ -825,6 +832,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geosite-paypal",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/paypal.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-wise",
         "type": "remote",
         "format": "binary",
@@ -843,20 +857,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/n26.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-category-cryptocurrency",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-cryptocurrency.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-paypal",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/paypal.srs",
         "download_detour": "direct"
       },
       {
@@ -983,6 +983,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-category-cryptocurrency",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-cryptocurrency.srs",
         "download_detour": "direct"
       },
       {
