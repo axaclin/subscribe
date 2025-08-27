@@ -799,6 +799,14 @@
       },
       {
         "rule_set": [
+          "geosite-xbox",
+          "geosite-category-games",
+          "geosite-dmm"
+        ],
+        "outbound": "Games"
+      },
+      {
+        "rule_set": [
           "geosite-googlevoice",
           "geoip-google",
           "geosite-google"
@@ -842,15 +850,11 @@
         "outbound": "Crypto"
       },
       {
-        "rule_set": [
-          "geosite-onedrive",
-          "geosite-microsoft@cn"
-        ],
+        "rule_set": "geosite-onedrive",
         "outbound": "Onedrive"
       },
       {
         "rule_set": [
-          "geosite-xbox",
           "geosite-bing",
           "geosite-microsoft"
         ],
@@ -859,17 +863,9 @@
       {
         "rule_set": [
           "geoip-apple",
-          "geosite-apple",
-          "geosite-amazon"
+          "geosite-apple"
         ],
         "outbound": "Apple"
-      },
-      {
-        "rule_set": [
-          "geosite-category-games",
-          "geosite-dmm"
-        ],
-        "outbound": "Games"
       },
       {
         "rule_set": "geosite-geolocation-!cn",
@@ -1060,10 +1056,10 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geosite-microsoft@cn",
+        "tag": "geosite-xbox",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft@cn.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/xbox.srs",
         "download_detour": "direct"
       },
       {
@@ -1071,13 +1067,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/onedrive.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-xbox",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/xbox.srs",
         "download_detour": "direct"
       },
       {
@@ -1106,13 +1095,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-amazon",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/amazon.srs",
         "download_detour": "direct"
       },
       {
