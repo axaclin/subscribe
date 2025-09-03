@@ -702,7 +702,7 @@
       {
         "rule_set": [
           "geoip-giffgaff",
-          "geosite-giffgaff",
+          "geosite-giffgaff"
         ],
         "outbound": "🇬🇧 United Kingdom"
       },
