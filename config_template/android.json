@@ -132,7 +132,9 @@
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany"
       ]
     },
     {
@@ -180,7 +182,9 @@
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany"
       ],
       "default": "🇺🇸 America"
     },
@@ -195,7 +199,9 @@
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany"
       ],
       "default": "🇹🇼 TaiWan"
     },
@@ -212,7 +218,9 @@
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany"
       ],
       "default": "🇺🇸 America"
     },
@@ -229,7 +237,9 @@
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany"
       ],
       "default": "🇸🇬 Singapore"
     },
@@ -247,6 +257,8 @@
         "🇺🇸 America",
         "🇯🇵 Japan",
         "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany",
         "🏳️‍🌈 Others"
       ]
     },
@@ -290,6 +302,8 @@
         "🇺🇸 America",
         "🇯🇵 Japan",
         "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany",
         "🏳️‍🌈 Others"
       ],
       "default": "🇭🇰 HongKong"
@@ -306,6 +320,8 @@
         "🇺🇸 America",
         "🇯🇵 Japan",
         "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany",
         "🏳️‍🌈 Others"
       ]
     },
@@ -323,6 +339,8 @@
         "🇺🇸 America",
         "🇯🇵 Japan",
         "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany",
         "Proxy",
         "direct"
       ]
@@ -462,6 +480,48 @@
       ]
     },
     {
+      "tag": "🇬🇧 United Kingdom",
+      "type": "selector",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇬🇧|UK|uk|英国|英|United Kingdom"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "官网|游戏|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "🇩🇪 Germany",
+      "type": "selector",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇩🇪|DE|de|德国|德|Germany"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "官网|游戏|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+          ]
+        }
+      ]
+    },
+    {
       "tag": "🏳️‍🌈 Others",
       "type": "selector",
       "outbounds": [
@@ -471,7 +531,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇺🇸|US|us|美国|美|🇯🇵|JP|jp|日本|日|🇰🇷|KR|kr|韩国|韩|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+            "🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇺🇸|US|us|美国|美|🇯🇵|JP|jp|日本|日|🇰🇷|KR|kr|韩国|韩|🇬🇧|UK|uk|英国|英|🇩🇪|DE|de|德国|德|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
           ]
         }
       ]
@@ -640,6 +700,13 @@
         "outbound": "Proxy"
       },
       {
+        "rule_set": [
+          "geoip-giffgaff",
+          "geosite-giffgaff",
+        ],
+        "outbound": "🇬🇧 United Kingdom"
+      },
+      {
         "rule_set": "geosite-openai",
         "outbound": "OpenAI"
       },
@@ -728,6 +795,20 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-giffgaff",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://github.com/axaclin/ruleset-icon/raw/refs/heads/main/sing-box/geoip/giffgaff-ip.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-giffgaff",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://github.com/axaclin/ruleset-icon/raw/refs/heads/main/sing-box/geosite/giffgaff.srs",
         "download_detour": "direct"
       },
       {
