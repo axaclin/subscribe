@@ -264,7 +264,7 @@
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO"
       ],
-      "default": "🇰🇷 KR AUTO"
+      "default": "🇹🇼 TW AUTO"
     },
     {
       "tag": "Github",
@@ -695,7 +695,7 @@
           "mexc.com",
           "mexcsensors.com"
         ],
-        "outbound": "🇹🇼 TaiWan"
+        "outbound": "🇹🇼 TW AUTO"
       },
       {
         "domain_suffix": [
