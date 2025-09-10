@@ -248,20 +248,6 @@
       "default": "🇹🇼 TaiWan"
     },
     {
-      "tag": "Spotify",
-      "type": "selector",
-      "outbounds": [
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🏳️‍🌈 Others"
-      ],
-      "default": "🇹🇼 TaiWan"
-    },
-    {
       "tag": "Crypto",
       "type": "selector",
       "outbounds": [
@@ -838,10 +824,6 @@
         "outbound": "Twitter"
       },
       {
-        "rule_set": "geosite-spotify",
-        "outbound": "Spotify"
-      },
-      {
         "rule_set": "geosite-tiktok",
         "outbound": "TikTok"
       },
@@ -1032,13 +1014,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-spotify",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/spotify.srs",
         "download_detour": "direct"
       },
       {
