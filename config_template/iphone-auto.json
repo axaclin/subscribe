@@ -236,20 +236,6 @@
       "default": "🇹🇼 TW AUTO"
     },
     {
-      "tag": "Spotify",
-      "type": "selector",
-      "outbounds": [
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
-        "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
-        "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
-        "🏳️‍🌈 Others"
-      ],
-      "default": "🇹🇼 TW AUTO"
-    },
-    {
       "tag": "Crypto",
       "type": "selector",
       "outbounds": [
@@ -692,13 +678,6 @@
       },
       {
         "domain_suffix": [
-          "mexc.com",
-          "mexcsensors.com"
-        ],
-        "outbound": "🇹🇼 TW AUTO"
-      },
-      {
-        "domain_suffix": [
           "coinbase.com",
           "neverless.com",
           "myfin.bg",
@@ -769,10 +748,6 @@
           "geosite-twitter"
         ],
         "outbound": "Twitter"
-      },
-      {
-        "rule_set": "geosite-spotify",
-        "outbound": "Spotify"
       },
       {
         "rule_set": "geosite-tiktok",
@@ -965,13 +940,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-spotify",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/spotify.srs",
         "download_detour": "direct"
       },
       {
