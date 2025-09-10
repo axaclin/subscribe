@@ -188,23 +188,6 @@
       ]
     },
     {
-      "tag": "TikTok",
-      "type": "selector",
-      "outbounds": [
-        "🇺🇸 US AUTO",
-        "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
-      ],
-      "default": "🇹🇼 TaiWan"
-    },
-    {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
@@ -240,6 +223,23 @@
         "🇩🇪 Germany"
       ],
       "default": "🇸🇬 Singapore"
+    },
+    {
+      "tag": "TikTok",
+      "type": "selector",
+      "outbounds": [
+        "🇹🇼 TW AUTO",
+        "🇺🇸 US AUTO",
+        "🏳️‍🌈 Others",
+        "🇹🇼 TaiWan",
+        "🇸🇬 Singapore",
+        "🇺🇸 America",
+        "🇯🇵 Japan",
+        "🇰🇷 Korea",
+        "🇬🇧 United Kingdom",
+        "🇩🇪 Germany"
+      ],
+      "default": "🇹🇼 TaiWan"
     },
     {
       "tag": "Github",
