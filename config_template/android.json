@@ -700,13 +700,6 @@
         "outbound": "Proxy"
       },
       {
-        "rule_set": [
-          "geoip-giffgaff",
-          "geosite-giffgaff"
-        ],
-        "outbound": "🇬🇧 United Kingdom"
-      },
-      {
         "rule_set": "geosite-openai",
         "outbound": "OpenAI"
       },
@@ -795,20 +788,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-giffgaff",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/https://github.com/axaclin/ruleset-icon/raw/refs/heads/main/sing-box/geoip/giffgaff-ip.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-giffgaff",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/https://github.com/axaclin/ruleset-icon/raw/refs/heads/main/sing-box/geosite/giffgaff.srs",
         "download_detour": "direct"
       },
       {
