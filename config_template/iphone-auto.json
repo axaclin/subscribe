@@ -656,6 +656,7 @@
       },
       {
         "domain": [
+          "helium-media.s3.us-west-2.amazonaws.com",
           "heliummobile.statuspage.io"
         ],
         "domain_suffix": [
