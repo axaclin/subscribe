@@ -726,7 +726,10 @@
           "api.hellohelium.com",
           "heliummobile.statuspage.io"
         ],
-        "domain_suffix": "t-mobile.com",
+        "domain_suffix": [
+          "heliummobile.com",
+          "t-mobile.com"
+        ],
         "rule_set": [
           "geosite-helium",
           "geosite-paypal"
