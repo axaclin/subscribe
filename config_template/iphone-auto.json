@@ -656,10 +656,10 @@
       },
       {
         "domain": [
-          "api.hellohelium.com",
           "heliummobile.statuspage.io"
         ],
         "domain_suffix": [
+          "api.hellohelium.com",
           "heliummobile.com",
           "t-mobile.com"
         ],
