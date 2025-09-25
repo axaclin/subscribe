@@ -349,16 +349,7 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
-        "direct",
-        "🇭🇰 HK AUTO",
-        "🇹🇼 TW AUTO",
-        "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
-        "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
-        "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others"
+        "direct"
       ]
     },
     {
