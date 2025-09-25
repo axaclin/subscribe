@@ -289,14 +289,7 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
-        "direct",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇺🇸 America",
-        "🇯🇵 Japan",
-        "🇰🇷 Korea",
-        "🏳️‍🌈 Others"
+        "direct"
       ]
     },
     {
