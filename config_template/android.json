@@ -228,8 +228,8 @@
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 TW AUTO",
         "🇺🇸 US AUTO",
+        "🇹🇼 TW AUTO",
         "🏳️‍🌈 Others",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
