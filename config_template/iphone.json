@@ -737,14 +737,6 @@
       },
       {
         "domain_suffix": [
-          "mexc.com",
-          "mexcsensors.com"
-        ],
-        "outbound": "🇹🇼 TaiWan"
-      },
-      {
-        "domain_suffix": [
-          "coinbase.com",
           "neverless.com",
           "myfin.bg",
           "monese.com"
