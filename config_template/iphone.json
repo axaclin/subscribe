@@ -132,14 +132,13 @@
       "outbounds": [
         "🇺🇸 US AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇺🇸 America"
     },
@@ -150,13 +149,12 @@
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -166,13 +164,12 @@
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -182,15 +179,14 @@
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -200,15 +196,14 @@
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -218,15 +213,14 @@
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇸🇬 Singapore"
     },
@@ -236,14 +230,13 @@
       "outbounds": [
         "🇺🇸 US AUTO",
         "🇹🇼 TW AUTO",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇹🇼 TaiWan"
     },
@@ -252,15 +245,14 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇹🇼 TaiWan"
     },
@@ -272,12 +264,11 @@
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
         "🇩🇪 Germany",
         "🏳️‍🌈 Others"
@@ -288,13 +279,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -302,11 +292,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -314,15 +304,14 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
-        "🇩🇪 Germany"
+        "🇩🇪 Germany",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇭🇰 HongKong"
     },
@@ -332,12 +321,11 @@
       "outbounds": [
         "direct",
         "Proxy",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
         "🇩🇪 Germany",
         "🏳️‍🌈 Others"
@@ -349,12 +337,12 @@
       "outbounds": [
         "direct",
         "Proxy",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
         "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🇬🇧 United Kingdom",
         "🇩🇪 Germany",
         "🏳️‍🌈 Others"
