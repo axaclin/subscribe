@@ -125,11 +125,10 @@
       "tag": "OpenAI",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ]
     },
@@ -137,12 +136,11 @@
       "tag": "Youtube",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ]
     },
@@ -150,12 +148,11 @@
       "tag": "Google",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ]
     },
@@ -163,12 +160,11 @@
       "tag": "Meta",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America"
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ],
       "default": "🇺🇸 America"
@@ -177,12 +173,11 @@
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America"
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ],
       "default": "🇺🇸 America"
@@ -191,12 +186,11 @@
       "tag": "Twitter",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America"
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ],
       "default": "🇸🇬 Singapore"
@@ -205,11 +199,10 @@
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 America"
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ],
       "default": "🇹🇼 TaiWan"
@@ -219,13 +212,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -233,13 +225,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -247,11 +238,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -259,13 +250,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea"
+        "🏳️‍🌈 Others"
       ],
       "default": "🇭🇰 HongKong"
     },
@@ -274,13 +264,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
-        "🇺🇸 America",
         "🇯🇵 Japan",
-        "🇰🇷 Korea",
         "🏳️‍🌈 Others"
       ]
     },
@@ -421,30 +409,6 @@
       "tolerance": 50
     },
     {
-      "tag": "🇰🇷 Korea",
-      "type": "urltest",
-      "outbounds": [
-        "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇰🇷|KR|kr|韩国|韩|Korea"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "官网|游戏|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
-          ]
-        }
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
       "tag": "🏳️‍🌈 Others",
       "type": "selector",
       "outbounds": [
@@ -454,7 +418,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇺🇸|US|us|美国|美|🇯🇵|JP|jp|日本|日|🇰🇷|KR|kr|韩国|韩|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+            "🇺🇸|US|us|美国|美|🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
           ]
         }
       ]
