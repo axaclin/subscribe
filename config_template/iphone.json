@@ -320,7 +320,6 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
         "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
@@ -336,7 +335,6 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
         "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
