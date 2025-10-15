@@ -130,11 +130,11 @@
       "tag": "OpenAI",
       "type": "selector",
       "outbounds": [
+        "Proxy",
+        "🇺🇸 US AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -145,12 +145,12 @@
       "tag": "Youtube",
       "type": "selector",
       "outbounds": [
+        "Proxy",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🇺🇸 US AUTO",
         "🇸🇬 SG AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -160,12 +160,12 @@
       "tag": "Google",
       "type": "selector",
       "outbounds": [
+        "Proxy",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
-        "🇺🇸 US AUTO",
         "🇸🇬 SG AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -175,12 +175,12 @@
       "tag": "Meta",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -191,12 +191,12 @@
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
+        "Proxy",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -207,12 +207,12 @@
       "tag": "Twitter",
       "type": "selector",
       "outbounds": [
+        "Proxy",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -223,12 +223,11 @@
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 TW AUTO",
-        "🇸🇬 SG AUTO",
+        "Proxy",
         "🇺🇸 US AUTO",
+        "🇹🇼 TW AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
-        "🇰🇷 KR AUTO",
+        "🇸🇬 SG AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -240,15 +239,14 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO"
+        "🇩🇪 DE AUTO",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇹🇼 TW AUTO"
     },
@@ -257,15 +255,14 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO"
+        "🇩🇪 DE AUTO",
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -273,13 +270,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -287,11 +283,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO"
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -299,15 +295,14 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO"
+        "🇩🇪 DE AUTO",
+        "🏳️‍🌈 Others"
       ],
       "default": "🇭🇰 HK AUTO"
     },
@@ -316,15 +311,14 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🏳️‍🌈 Others",
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO"
+        "🇩🇪 DE AUTO",
+        "🏳️‍🌈 Others"
       ]
     },
     {
@@ -332,13 +326,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Proxy",
+        "🇺🇸 US AUTO",       
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🇺🇸 US AUTO",
         "🇯🇵 JP AUTO",
-        "🇰🇷 KR AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
@@ -359,6 +351,30 @@
         "direct",
         "Proxy"
       ]
+    },
+    {
+      "tag": "🇺🇸 US AUTO",
+      "type": "urltest",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇺🇸|US|us|美国|美|United States"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "香港|港|HK|hk|HongKong|Australia|官网|游戏|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
     },
     {
       "tag": "🇭🇰 HK AUTO",
@@ -433,30 +449,6 @@
       "tolerance": 50
     },
     {
-      "tag": "🇺🇸 US AUTO",
-      "type": "urltest",
-      "outbounds": [
-        "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇺🇸|US|us|美国|美|United States"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "香港|港|HK|hk|HongKong|Australia|官网|游戏|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
-          ]
-        }
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
       "tag": "🇯🇵 JP AUTO",
       "type": "urltest",
       "outbounds": [
@@ -467,30 +459,6 @@
           "action": "include",
           "keywords": [
             "🇯🇵|JP|jp|日本|日|Japan"
-          ]
-        },
-        {
-          "action": "exclude",
-          "keywords": [
-            "官网|游戏|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
-          ]
-        }
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
-      "tag": "🇰🇷 KR AUTO",
-      "type": "urltest",
-      "outbounds": [
-        "{all}"
-      ],
-      "filter": [
-        {
-          "action": "include",
-          "keywords": [
-            "🇰🇷|KR|kr|韩国|韩|Korea"
           ]
         },
         {
@@ -562,7 +530,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇺🇸|US|us|美国|美|🇯🇵|JP|jp|日本|日|🇰🇷|KR|kr|韩国|韩|🇬🇧|UK|uk|EN|en|英国|英|🇩🇪|DE|de|德国|德|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+            "🇺🇸|US|us|美国|美|🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇬🇧|UK|uk|EN|en|英国|英|🇩🇪|DE|de|德国|德|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
           ]
         }
       ]
