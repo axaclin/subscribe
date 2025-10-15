@@ -160,7 +160,7 @@
       "tag": "Meta",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America"
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -173,7 +173,7 @@
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America"
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -186,7 +186,7 @@
       "tag": "Twitter",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America"
+        "🇺🇸 America",
         "🇭🇰 HongKong",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
@@ -199,7 +199,7 @@
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America"
+        "🇺🇸 America",
         "🇹🇼 TaiWan",
         "🇸🇬 Singapore",
         "🇯🇵 Japan",
