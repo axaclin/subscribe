@@ -591,14 +591,6 @@
         "action": "reject"
       },
       {
-        "rule_set": [
-          "anti-ad",
-          "anti-pcdn"
-        ],
-        "clash_mode": "global",
-        "outbound": "Proxy"
-      },
-      {
         "clash_mode": "direct",
         "outbound": "direct"
       },
