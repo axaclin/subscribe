@@ -644,22 +644,6 @@
         "action": "hijack-dns"
       },
       {
-        "rule_set": [
-          "anti-ad",
-          "anti-pcdn"
-        ],
-        "clash_mode": "rule",
-        "action": "reject"
-      },
-      {
-        "rule_set": [
-          "anti-ad",
-          "anti-pcdn"
-        ],
-        "clash_mode": "global",
-        "outbound": "Proxy"
-      },
-      {
         "clash_mode": "direct",
         "outbound": "direct"
       },
@@ -675,6 +659,14 @@
           "d.metacubex.one"
         ],
         "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "anti-ad",
+          "anti-pcdn"
+        ],
+        "clash_mode": "rule",
+        "action": "reject"
       },
       {
         "ip_is_private": true,
