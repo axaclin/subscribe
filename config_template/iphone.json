@@ -644,12 +644,18 @@
         "action": "hijack-dns"
       },
       {
-        "rule_set": "geosite-category-ads-all",
+        "rule_set": [
+          "anti-ad",
+          "anti-pcdn"
+        ],
         "clash_mode": "rule",
         "action": "reject"
       },
       {
-        "rule_set": "geosite-category-ads-all",
+        "rule_set": [
+          "anti-ad",
+          "anti-pcdn"
+        ],
         "clash_mode": "global",
         "outbound": "Proxy"
       },
@@ -813,11 +819,18 @@
     ],
     "rule_set": [
       {
-        "tag": "geosite-category-ads-all",
+        "tag": "anti-pcdn",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
-        "download_detour": "direct"
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Yuu518/sing-box-rules/refs/heads/rule_set/rule_set_site/pcdn-cn.srs",
+        "download_detour": "🇨🇳 直连"
+      },
+      {
+        "tag": "anti-ad",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs",
+        "download_detour": "🇨🇳 直连"
       },
       {
         "tag": "geosite-helium",
