@@ -716,7 +716,11 @@
         "outbound": "🇬🇧 United Kingdom"
       },
       {
-        "rule_set": "geosite-openai",
+        "rule_set": [
+          "geosite-bing",
+          "geosite-gemini",
+          "geosite-openai"
+        ],
         "outbound": "OpenAI"
       },
       {
@@ -767,7 +771,8 @@
       {
         "rule_set": [
           "geoip-twitter",
-          "geosite-twitter"
+          "geosite-twitter",
+          "geosite-x"
         ],
         "outbound": "Twitter"
       },
@@ -780,14 +785,7 @@
         "outbound": "Crypto"
       },
       {
-        "rule_set": "geosite-onedrive",
-        "outbound": "Onedrive"
-      },
-      {
-        "rule_set": [
-          "geosite-bing",
-          "geosite-microsoft"
-        ],
+        "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
       },
       {
@@ -804,7 +802,11 @@
       {
         "rule_set": [
           "geoip-cn",
-          "geosite-cn"
+          "geosite-cn",
+          "geosite-onedrive",
+          "geosite-bing-cn",
+          "geosite-tencent-cn",
+          "geosite-bilibili"
         ],
         "outbound": "China"
       }
@@ -874,10 +876,10 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geosite-bilibili",
+        "tag": "geosite-gemini",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
         "download_detour": "direct"
       },
       {
@@ -972,6 +974,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geosite-x",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/x.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-tiktok",
         "type": "remote",
         "format": "binary",
@@ -1011,6 +1020,27 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-bing-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing@cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-tencent-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tencent@cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-bilibili",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
         "download_detour": "direct"
       },
       {
