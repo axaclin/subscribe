@@ -717,6 +717,7 @@
       },
       {
         "rule_set": [
+          "geoip-ai",
           "geosite-bing",
           "geosite-gemini",
           "geosite-openai"
@@ -859,6 +860,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/n26.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-ai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/ai.srs",
         "download_detour": "direct"
       },
       {
