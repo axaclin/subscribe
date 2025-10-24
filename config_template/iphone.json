@@ -275,31 +275,6 @@
       ]
     },
     {
-      "tag": "BiliBili",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
-        "🏳️‍🌈 Others"
-      ]
-    },
-    {
-      "tag": "Onedrive",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🏳️‍🌈 Others"
-      ]
-    },
-    {
       "tag": "Microsoft",
       "type": "selector",
       "outbounds": [
