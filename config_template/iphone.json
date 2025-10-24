@@ -700,12 +700,17 @@
         "outbound": "OpenAI"
       },
       {
-        "rule_set": "geosite-github",
-        "outbound": "Github"
+        "rule_set": [
+          "geosite-onedrive",
+          "geosite-bing-cn",
+          "geosite-tencent-cn",
+          "geosite-bilibili"
+        ],
+        "outbound": "direct"
       },
       {
-        "rule_set": "geosite-bilibili",
-        "outbound": "BiliBili"
+        "rule_set": "geosite-github",
+        "outbound": "Github"
       },
       {
         "rule_set": "geosite-youtube",
@@ -778,11 +783,7 @@
       {
         "rule_set": [
           "geoip-cn",
-          "geosite-cn",
-          "geosite-onedrive",
-          "geosite-bing-cn",
-          "geosite-tencent-cn",
-          "geosite-bilibili"
+          "geosite-cn"
         ],
         "outbound": "China"
       }
