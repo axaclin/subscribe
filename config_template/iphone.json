@@ -648,22 +648,6 @@
         "outbound": "direct"
       },
       {
-        "domain": [
-          "helium-media.s3.us-west-2.amazonaws.com",
-          "heliummobile.statuspage.io"
-        ],
-        "domain_suffix": [
-          "hellohelium.com",
-          "heliummobile.com",
-          "t-mobile.com"
-        ],
-        "rule_set": [
-          "geosite-helium",
-          "geosite-paypal"
-        ],
-        "outbound": "🇺🇸 America"
-      },
-      {
         "domain_suffix": [
           "podcastapp.io",
           "tradingview.com",
@@ -692,12 +676,10 @@
       },
       {
         "rule_set": [
-          "geoip-ai",
-          "geosite-bing",
-          "geosite-gemini",
-          "geosite-openai"
+          "geosite-googlevoice",
+          "geosite-paypal"
         ],
-        "outbound": "OpenAI"
+        "outbound": "🇺🇸 America"
       },
       {
         "rule_set": [
@@ -707,6 +689,15 @@
           "geosite-bilibili"
         ],
         "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geoip-ai",
+          "geosite-bing",
+          "geosite-gemini",
+          "geosite-openai"
+        ],
+        "outbound": "OpenAI"
       },
       {
         "rule_set": "geosite-github",
@@ -726,7 +717,6 @@
       },
       {
         "rule_set": [
-          "geosite-googlevoice",
           "geoip-google",
           "geosite-google"
         ],
@@ -801,13 +791,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-helium",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/raw.githubusercontent.com/axaclin/T-Mobile/refs/heads/main/T-Mobile.srs",
         "download_detour": "direct"
       },
       {
