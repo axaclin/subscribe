@@ -784,7 +784,7 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
-        "download_detour": "🇨🇳 直连"
+        "download_detour": "direct"
       },
       {
         "tag": "geosite-youtube",
