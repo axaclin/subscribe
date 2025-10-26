@@ -514,7 +514,15 @@
         "outbound": "Proxy"
       },
       {
-        "rule_set": "geosite-openai",
+        "rule_set": "geosite-googlevoice",
+        "outbound": "🇺🇸 America"
+      },
+      {
+        "rule_set": [
+          "geosite-bing",
+          "geosite-gemini",
+          "geosite-openai"
+        ],
         "outbound": "OpenAI"
       },
       {
@@ -578,10 +586,7 @@
         "outbound": "Onedrive"
       },
       {
-        "rule_set": [
-          "geosite-bing",
-          "geosite-microsoft"
-        ],
+        "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
       },
       {
@@ -612,6 +617,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geosite-googlevoice",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-openai",
         "type": "remote",
         "format": "binary",
@@ -633,17 +645,17 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geosite-gemini",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-youtube",
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-googlevoice",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
         "download_detour": "direct"
       },
       {
