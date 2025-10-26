@@ -794,6 +794,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geosite-googlevoice",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-paypal",
         "type": "remote",
         "format": "binary",
@@ -854,13 +861,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-googlevoice",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
         "download_detour": "direct"
       },
       {
