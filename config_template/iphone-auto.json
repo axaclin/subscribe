@@ -612,17 +612,8 @@
         "outbound": "direct"
       },
       {
-        "domain": [
-          "helium-media.s3.us-west-2.amazonaws.com",
-          "heliummobile.statuspage.io"
-        ],
-        "domain_suffix": [
-          "hellohelium.com",
-          "heliummobile.com",
-          "t-mobile.com"
-        ],
         "rule_set": [
-          "geosite-helium",
+          "geosite-googlevoice",
           "geosite-paypal"
         ],
         "outbound": "🇺🇸 US AUTO"
@@ -655,7 +646,10 @@
         "outbound": "🇬🇧 UK AUTO"
       },
       {
-        "rule_set": "geosite-openai",
+        "rule_set": [
+          "geosite-bing",
+          "geosite-openai"
+        ],
         "outbound": "OpenAI"
       },
       {
@@ -680,7 +674,6 @@
       },
       {
         "rule_set": [
-          "geosite-googlevoice",
           "geoip-google",
           "geosite-google"
         ],
@@ -723,10 +716,7 @@
         "outbound": "Onedrive"
       },
       {
-        "rule_set": [
-          "geosite-bing",
-          "geosite-microsoft"
-        ],
+        "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
       },
       {
@@ -764,10 +754,10 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geosite-helium",
+        "tag": "geosite-googlevoice",
         "type": "remote",
         "format": "binary",
-        "url": "https://gh-proxy.com/raw.githubusercontent.com/axaclin/T-Mobile/refs/heads/main/T-Mobile.srs",
+        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
         "download_detour": "direct"
       },
       {
@@ -824,13 +814,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-googlevoice",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
         "download_detour": "direct"
       },
       {
