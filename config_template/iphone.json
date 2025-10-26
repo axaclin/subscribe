@@ -648,6 +648,15 @@
         "outbound": "direct"
       },
       {
+        "rule_set": [
+          "geosite-onedrive",
+          "geosite-bing-cn",
+          "geosite-tencent-cn",
+          "geosite-bilibili"
+        ],
+        "outbound": "direct"
+      },
+      {
         "domain_suffix": [
           "podcastapp.io",
           "tradingview.com",
@@ -680,15 +689,6 @@
           "geosite-paypal"
         ],
         "outbound": "🇺🇸 America"
-      },
-      {
-        "rule_set": [
-          "geosite-onedrive",
-          "geosite-bing-cn",
-          "geosite-tencent-cn",
-          "geosite-bilibili"
-        ],
-        "outbound": "direct"
       },
       {
         "rule_set": [
