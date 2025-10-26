@@ -650,6 +650,10 @@
         "outbound": "Proxy"
       },
       {
+        "rule_set": "geosite-googlevoice",
+        "outbound": "🇺🇸 America"
+      },
+      {
         "rule_set": [
           "geosite-bing",
           "geosite-gemini",
@@ -679,7 +683,6 @@
       },
       {
         "rule_set": [
-          "geosite-googlevoice",
           "geoip-google",
           "geosite-google"
         ],
