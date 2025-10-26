@@ -648,6 +648,7 @@
       {
         "rule_set": [
           "geosite-bing",
+          "geosite-gemini",
           "geosite-openai"
         ],
         "outbound": "OpenAI"
@@ -807,6 +808,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-gemini",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
         "download_detour": "direct"
       },
       {
