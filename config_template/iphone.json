@@ -693,7 +693,6 @@
       {
         "rule_set": [
           "geoip-ai",
-          "geosite-bing",
           "geosite-gemini",
           "geosite-openai"
         ],
@@ -756,7 +755,10 @@
         "outbound": "Crypto"
       },
       {
-        "rule_set": "geosite-microsoft",
+        "rule_set": [
+          "geosite-bing",
+          "geosite-microsoft"
+        ],
         "outbound": "Microsoft"
       },
       {
