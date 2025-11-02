@@ -519,6 +519,8 @@
       },
       {
         "rule_set": [
+          "geoip-ai",
+          "geosite-bing",
           "geosite-gemini",
           "geosite-openai"
         ],
@@ -585,10 +587,7 @@
         "outbound": "Onedrive"
       },
       {
-        "rule_set": [
-          "geosite-bing",
-          "geosite-microsoft"
-        ],
+        "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
       },
       {
@@ -623,6 +622,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-ai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/ai.srs",
         "download_detour": "direct"
       },
       {
