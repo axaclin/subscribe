@@ -656,6 +656,7 @@
       {
         "rule_set": [
           "geoip-ai",
+          "geosite-bing",
           "geosite-gemini",
           "geosite-openai"
         ],
@@ -721,10 +722,7 @@
         "outbound": "Onedrive"
       },
       {
-        "rule_set": [
-          "geosite-bing",
-          "geosite-microsoft"
-        ],
+        "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
       },
       {
