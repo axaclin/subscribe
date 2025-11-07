@@ -653,10 +653,10 @@
       },
       {
         "rule_set": [
+          "geosite-bilibili"
           "geosite-onedrive",
           "geosite-bing-cn",
-          "geosite-tencent-cn",
-          "geosite-bilibili"
+          "geosite-tencent-cn"
         ],
         "outbound": "🎯 直连"
       },
@@ -795,6 +795,27 @@
         "type": "remote",
         "format": "binary",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-bing-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing@cn.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-tencent-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tencent@cn.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-bilibili",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
         "download_detour": "🎯 直连"
       },
       {
@@ -991,27 +1012,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-bing-cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing@cn.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-tencent-cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tencent@cn.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-bilibili",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
         "download_detour": "🎯 直连"
       },
       {
