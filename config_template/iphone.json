@@ -798,6 +798,13 @@
         "download_detour": "🎯 直连"
       },
       {
+        "tag": "geosite-googlevoice",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
         "tag": "geosite-bing-cn",
         "type": "remote",
         "format": "binary",
@@ -816,13 +823,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-googlevoice",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://gh-proxy.com/github.com/Toperlock/sing-box-geosite/raw/refs/heads/main/rule/GoogleVoice.srs",
         "download_detour": "🎯 直连"
       },
       {
