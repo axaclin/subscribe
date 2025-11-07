@@ -121,7 +121,7 @@
       "tag": "代理",
       "type": "selector",
       "outbounds": [
-        "auto",
+        "自动选择",
         "{all}"
       ]
     },
@@ -571,7 +571,7 @@
       "tolerance": 50
     },
     {
-      "tag": "auto",
+      "tag": "自动选择",
       "type": "urltest",
       "outbounds": [
         "{all}"
