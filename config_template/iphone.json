@@ -653,7 +653,7 @@
       },
       {
         "rule_set": [
-          "geosite-bilibili"
+          "geosite-bilibili",
           "geosite-onedrive",
           "geosite-bing-cn",
           "geosite-tencent-cn"
