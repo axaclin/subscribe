@@ -895,17 +895,17 @@
         "download_detour": "🎯 直连"
       },
       {
-        "tag": "geosite-microsoft",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
         "tag": "geosite-bing",
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-microsoft",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
         "download_detour": "🎯 直连"
       },
       {
