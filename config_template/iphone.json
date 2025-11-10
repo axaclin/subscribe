@@ -845,7 +845,7 @@
         "download_detour": "🎯 直连"
       },
       {
-        "tag": "geosite-bilibibli",
+        "tag": "geosite-bilibili",
         "type": "remote",
         "format": "binary",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-bilibili.srs",
