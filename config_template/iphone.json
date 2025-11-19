@@ -663,7 +663,7 @@
           "axac.us.kg",
           "axac.dpdns.org"
         ],
-        "outbound": "自动选择"
+        "outbound": "♻️ 自动选择"
       },
       {
         "domain_suffix": [
@@ -696,7 +696,7 @@
           "geosite-googlevoice",
           "geosite-paypal"
         ],
-        "outbound": "🇺🇸 美国手动"
+        "outbound": "🇺🇸 美国自动"
       },
       {
         "rule_set": [
