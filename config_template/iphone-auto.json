@@ -122,6 +122,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
+        "direct",
         "{all}"
       ]
     },
@@ -129,18 +130,29 @@
       "tag": "OpenAI",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Youtube",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -148,9 +160,14 @@
       "tag": "Google",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -158,40 +175,64 @@
       "tag": "Meta",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇺🇸 US AUTO"
     },
     {
       "tag": "Twitter",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇸🇬 SG AUTO"
     },
     {
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
+        "Proxy",
         "🇺🇸 US AUTO",
+        "🇹🇼 TW AUTO",
+        "🇯🇵 JP AUTO",
         "🇸🇬 SG AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇹🇼 TW AUTO"
     },
     {
       "tag": "Crypto",
@@ -200,9 +241,14 @@
         "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇹🇼 TW AUTO"
     },
     {
       "tag": "Github",
@@ -211,7 +257,11 @@
         "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -222,7 +272,9 @@
         "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -233,6 +285,7 @@
         "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
         "🏳️‍🌈 Others"
       ]
@@ -244,9 +297,14 @@
         "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
-      ]
+      ],
+      "default": "🇭🇰 HK AUTO"
     },
     {
       "tag": "Apple",
@@ -255,7 +313,11 @@
         "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -264,9 +326,13 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 US AUTO",       
+        "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
+        "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
+        "🇯🇵 JP AUTO",
+        "🇬🇧 UK AUTO",
+        "🇩🇪 DE AUTO",
         "🏳️‍🌈 Others"
       ]
     },
@@ -335,6 +401,30 @@
       "tolerance": 50
     },
     {
+      "tag": "🇹🇼 TW AUTO",
+      "type": "urltest",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇹🇼|TW|tw|台湾|台|Taiwan"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "官网|游戏|测试"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
       "tag": "🇸🇬 SG AUTO",
       "type": "urltest",
       "outbounds": [
@@ -359,6 +449,78 @@
       "tolerance": 50
     },
     {
+      "tag": "🇯🇵 JP AUTO",
+      "type": "urltest",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇯🇵|JP|jp|日本|日|Japan"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "官网|游戏|测试"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag": "🇬🇧 UK AUTO",
+      "type": "urltest",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇬🇧|UK|uk|英国|英|United Kingdom"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "官网|游戏|测试"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag": "🇩🇪 DE AUTO",
+      "type": "urltest",
+      "outbounds": [
+        "{all}"
+      ],
+      "filter": [
+        {
+          "action": "include",
+          "keywords": [
+            "🇩🇪|DE|de|德国|德|Germany"
+          ]
+        },
+        {
+          "action": "exclude",
+          "keywords": [
+            "官网|游戏|测试"
+          ]
+        }
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
       "tag": "🏳️‍🌈 Others",
       "type": "selector",
       "outbounds": [
@@ -368,7 +530,7 @@
         {
           "action": "exclude",
           "keywords": [
-            "🇺🇸|US|us|美国|美|🇭🇰|HK|hk|香港|香|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
+            "🇺🇸|US|us|美国|美|🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇬🇧|UK|uk|EN|en|英国|英|🇩🇪|DE|de|德国|德|官网|网站|续费|邀请|返利|返佣|软件|下载|访问|获取|订阅|剩余|流量|重置|有效|到期|套餐|过期|加群|关注|电报|延期|无墙|网址|地址|频道|版本|官址|备用|机场|邮箱|工单"
           ]
         }
       ]
@@ -458,18 +620,12 @@
       },
       {
         "domain_suffix": [
-          "axac.us.kg",
-          "axac.dpdns.org"
-        ],
-        "outbound": "auto"
-      },
-      {
-        "domain_suffix": [
           "pocketcasts.com",
           "tradingview.com",
           "vercel.app",
           "claw.cloud",
-          "gitlab.com"
+          "gitlab.com",
+          "axac.dpdns.org"
         ],
         "outbound": "Proxy"
       },
@@ -480,22 +636,21 @@
           "monese.com"
         ],
         "rule_set": "geosite-n26",
-        "outbound": "🏳️‍🌈 Others"
+        "outbound": "🇩🇪 DE AUTO"
       },
       {
         "rule_set": [
           "geosite-wise",
           "geosite-ifast"
         ],
-        "outbound": "🏳️‍🌈 Others"
+        "outbound": "🇬🇧 UK AUTO"
       },
       {
         "rule_set": [
           "geoip-ai",
           "geosite-bing",
           "geosite-gemini",
-          "geosite-openai",
-          "geosite-chat"
+          "geosite-openai"
         ],
         "outbound": "OpenAI"
       },
@@ -643,33 +798,12 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geosite-bing",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-gemini",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
-        "download_detour": "direct"
-      },
-      {
         "tag": "geosite-openai",
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/Toperlock/sing-box-geosite@main/rule/OpenAI.srs",
         "download_detour": "direct"
       },
-      {
-        "tag": "geosite-chat",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ai-!cn.srs",
-        "download_detour": "direct"
-      }
       {
         "tag": "geosite-github",
         "type": "remote",
@@ -682,6 +816,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bilibili.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-gemini",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
         "download_detour": "direct"
       },
       {
@@ -801,6 +942,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-bing",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
         "download_detour": "direct"
       },
       {
