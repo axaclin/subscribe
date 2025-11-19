@@ -620,12 +620,24 @@
       },
       {
         "rule_set": [
-          "geosite-bilibili",
           "geosite-onedrive",
           "geosite-bing-cn",
-          "geosite-tencent-cn"
+          "geosite-microsoft-cn",
+          "geosite-bilibili",
+          "geosite-tencent",
+          "geosite-alibaba",
+          "geosite-jd",
+          "geosite-bytedance",
+          "geosite-category-bank-cn"
         ],
         "outbound": "🎯 直连"
+      },
+      {
+        "domain_suffix": [
+          "axac.us.kg",
+          "axac.dpdns.org"
+        ],
+        "outbound": "♻️ 自动选择"
       },
       {
         "domain_suffix": [
@@ -633,13 +645,15 @@
           "tradingview.com",
           "vercel.app",
           "claw.cloud",
-          "gitlab.com",
-          "axac.dpdns.org"
+          "gitlab.com"
         ],
         "outbound": "🚀 代理"
       },
       {
-        "rule_set": "geosite-googlevoice",
+        "rule_set": [
+          "geosite-googlevoice",
+          "geosite-paypal"
+        ],
         "outbound": "🇺🇸 美国自动"
       },
       {
@@ -647,7 +661,8 @@
           "geoip-ai",
           "geosite-bing",
           "geosite-gemini",
-          "geosite-openai"
+          "geosite-openai",
+          "geosite-chat"
         ],
         "outbound": "OpenAI"
       },
@@ -741,6 +756,13 @@
         "download_detour": "🎯 直连"
       },
       {
+        "tag": "geosite-paypal",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/paypal.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
         "tag": "geosite-bing-cn",
         "type": "remote",
         "format": "binary",
@@ -748,10 +770,10 @@
         "download_detour": "🎯 直连"
       },
       {
-        "tag": "geosite-tencent-cn",
+        "tag": "geosite-microsoft-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tencent@cn.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/microsoft@cn.srs",
         "download_detour": "🎯 直连"
       },
       {
@@ -762,10 +784,66 @@
         "download_detour": "🎯 直连"
       },
       {
+        "tag": "geosite-tencent",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-alibaba",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-alibaba.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-jd",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-jd.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-bytedance",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-bytedance.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-category-bank-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-bank-cn.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-github",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/github.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
         "tag": "geoip-ai",
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/ai.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-bing",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-gemini",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
         "download_detour": "🎯 直连"
       },
       {
@@ -776,17 +854,10 @@
         "download_detour": "🎯 直连"
       },
       {
-        "tag": "geosite-github",
+        "tag": "geosite-chat",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/github.srs",
-        "download_detour": "🎯 直连"
-      },
-        {
-        "tag": "geosite-gemini",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/google-gemini.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ai-!cn.srs",
         "download_detour": "🎯 直连"
       },
       {
@@ -892,13 +963,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/onedrive.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-bing",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/bing.srs",
         "download_detour": "🎯 直连"
       },
       {
