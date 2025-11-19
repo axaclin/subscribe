@@ -656,18 +656,13 @@
       },
       {
         "domain_suffix": [
-          "axac.us.kg",
-          "axac.dpdns.org"
-        ],
-        "outbound": "♻️ 自动选择"
-      },
-      {
-        "domain_suffix": [
           "pocketcasts.com",
           "tradingview.com",
           "vercel.app",
           "claw.cloud",
-          "gitlab.com"
+          "gitlab.com",
+          "axac.us.kg",
+          "axac.dpdns.org"
         ],
         "outbound": "🚀 代理"
       },
