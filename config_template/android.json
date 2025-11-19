@@ -626,8 +626,6 @@
         ],
         "outbound": "🎯 直连"
       },
-        "outbound": "♻️ 自动选择"
-      },
       {
         "domain_suffix": [
           "pocketcasts.com",
