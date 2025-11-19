@@ -640,7 +640,7 @@
       },
       {
         "rule_set": "geosite-googlevoice",
-        "outbound": "🇺🇸 America"
+        "outbound": "🇺🇸 美国自动"
       },
       {
         "rule_set": [
