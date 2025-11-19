@@ -626,11 +626,6 @@
         ],
         "outbound": "🎯 直连"
       },
-      {
-        "domain_suffix": [
-          "axac.us.kg",
-          "axac.dpdns.org"
-        ],
         "outbound": "♻️ 自动选择"
       },
       {
@@ -639,7 +634,9 @@
           "tradingview.com",
           "vercel.app",
           "claw.cloud",
-          "gitlab.com"
+          "gitlab.com",
+          "axac.us.kg",
+          "axac.dpdns.org"
         ],
         "outbound": "🚀 代理"
       },
