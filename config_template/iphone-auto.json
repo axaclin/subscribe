@@ -132,8 +132,7 @@
         "🇺🇸 US AUTO",
         "🇸🇬 SG AUTO",
         "🏳️‍🌈 Others"
-      ],
-      "default": "🇺🇸 US AUTO"
+      ]
     },
     {
       "tag": "Youtube",
@@ -482,14 +481,14 @@
           "monese.com"
         ],
         "rule_set": "geosite-n26",
-        "outbound": "🇩🇪 DE AUTO"
+        "outbound": "🏳️‍🌈 Others"
       },
       {
         "rule_set": [
           "geosite-wise",
           "geosite-ifast"
         ],
-        "outbound": "🇬🇧 UK AUTO"
+        "outbound": "🏳️‍🌈 Others"
       },
       {
         "rule_set": [
