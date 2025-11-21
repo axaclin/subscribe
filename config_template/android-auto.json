@@ -541,8 +541,7 @@
       {
         "rule_set": [
           "geosite-xbox",
-          "geosite-category-games",
-          "geosite-dmm"
+          "geosite-category-games"
         ],
         "outbound": "Games"
       },
@@ -783,13 +782,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-games.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-dmm",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/dmm.srs",
         "download_detour": "direct"
       },
       {
