@@ -507,7 +507,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "tag": "🇭🇰 香港自动",
@@ -531,7 +531,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "tag": "🇹🇼 台湾自动",
@@ -555,7 +555,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "tag": "♻️ 自动选择",
@@ -573,7 +573,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "type": "direct",
