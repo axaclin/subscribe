@@ -237,12 +237,13 @@
       "tag": "Onedrive",
       "type": "selector",
       "outbounds": [
-        "direct",
+        "auto",
         "🇺🇸 US Auto",
         "🇭🇰 HK Auto",
         "🇹🇼 TW Auto",
         "🇸🇬 SG Auto",
-        "🏳️‍🌈 Others"
+        "🏳️‍🌈 Others",
+        "direct"
       ]
     },
     {
