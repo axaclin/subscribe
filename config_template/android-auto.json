@@ -211,13 +211,14 @@
       "tag": "Github",
       "type": "selector",
       "outbounds": [
-        "direct",
+        "auto",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
         "🇯🇵 JP AUTO",
-        "🏳️‍🌈 Others"
+        "🏳️‍🌈 Others",
+        "direct"
       ]
     },
     {
@@ -237,13 +238,13 @@
       "tag": "Onedrive",
       "type": "selector",
       "outbounds": [
-        "auto",
+        "direct",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
         "🇸🇬 SG AUTO",
-        "🏳️‍🌈 Others",
-        "direct"
+        "🇯🇵 JP AUTO",
+        "🏳️‍🌈 Others"
       ]
     },
     {
