@@ -117,6 +117,7 @@
       "type": "selector",
       "outbounds": [
         "♻️ 自动选择",
+        "direct",
         "{all}"
       ]
     },
