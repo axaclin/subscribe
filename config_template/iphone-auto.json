@@ -254,7 +254,7 @@
       "tag": "Github",
       "type": "selector",
       "outbounds": [
-        "direct",
+        "auto",
         "🇺🇸 US AUTO",
         "🇭🇰 HK AUTO",
         "🇹🇼 TW AUTO",
@@ -262,7 +262,8 @@
         "🇯🇵 JP AUTO",
         "🇬🇧 UK AUTO",
         "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others"
+        "🏳️‍🌈 Others",
+        "direct"
       ]
     },
     {
