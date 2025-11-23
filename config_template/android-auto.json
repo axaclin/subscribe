@@ -125,10 +125,10 @@
       "tag": "OpenAI",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -136,11 +136,11 @@
       "tag": "Youtube",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -148,11 +148,11 @@
       "tag": "Google",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -160,63 +160,63 @@
       "tag": "Meta",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇺🇸 America"
+      "default": "🇺🇸 US Auto"
     },
     {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇺🇸 America"
+      "default": "🇺🇸 US Auto"
     },
     {
       "tag": "Twitter",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇸🇬 Singapore"
+      "default": "🇸🇬 SG Auto"
     },
     {
       "tag": "TikTok",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 America",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇹🇼 TaiWan"
+      "default": "🇹🇼 TW Auto"
     },
     {
       "tag": "Github",
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -225,11 +225,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -238,10 +238,10 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -250,25 +250,25 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ],
-      "default": "🇭🇰 HongKong"
+      "default": "🇭🇰 HK Auto"
     },
     {
       "tag": "Games",
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇺🇸 America",
-        "🇭🇰 HongKong",
-        "🇹🇼 TaiWan",
-        "🇸🇬 Singapore",
-        "🇯🇵 Japan",
+        "🇺🇸 US Auto",
+        "🇭🇰 HK Auto",
+        "🇹🇼 TW Auto",
+        "🇸🇬 SG Auto",
+        "🇯🇵 JP Auto",
         "🏳️‍🌈 Others"
       ]
     },
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "tag": "🇺🇸 America",
+      "tag": "🇺🇸 US Auto",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -313,7 +313,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇭🇰 HongKong",
+      "tag": "🇭🇰 HK Auto",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -337,7 +337,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇹🇼 TaiWan",
+      "tag": "🇹🇼 TW Auto",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -361,7 +361,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇸🇬 Singapore",
+      "tag": "🇸🇬 SG Auto",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -385,7 +385,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇯🇵 Japan",
+      "tag": "🇯🇵 JP Auto",
       "type": "urltest",
       "outbounds": [
         "{all}"
@@ -515,7 +515,7 @@
       },
       {
         "rule_set": "geosite-googlevoice",
-        "outbound": "🇺🇸 America"
+        "outbound": "🇺🇸 US Auto"
       },
       {
         "rule_set": [
@@ -547,7 +547,6 @@
       },
       {
         "rule_set": [
-          "geosite-googlevoice",
           "geoip-google",
           "geosite-google"
         ],
