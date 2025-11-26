@@ -122,7 +122,7 @@
       ]
     },
     {
-      "tag": "OpenAI",
+      "tag": "AI",
       "type": "selector",
       "outbounds": [
         "🇺🇸 美国自动",
@@ -659,7 +659,7 @@
           "geosite-openai",
           "geosite-chat"
         ],
-        "outbound": "OpenAI"
+        "outbound": "AI"
       },
       {
         "rule_set": "geosite-github",
