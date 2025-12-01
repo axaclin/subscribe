@@ -647,6 +647,7 @@
       },
       {
         "domain_suffix": [
+          "mail.com",
           "pocketcasts.com",
           "tradingview.com",
           "vercel.app",
