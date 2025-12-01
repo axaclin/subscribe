@@ -619,6 +619,16 @@
         "outbound": "🎯 直连"
       },
       {
+        "domain_suffix": [
+          "mail.com",
+          "pocketcasts.com",
+          "tradingview.com",
+          "vercel.app",
+          "claw.cloud",
+          "gitlab.com",
+          "axac.us.kg",
+          "axac.dpdns.org"
+        ],
         "rule_set": [
           "geosite-googlevoice",
           "geosite-paypal"
@@ -638,18 +648,6 @@
           "geosite-category-bank-cn"
         ],
         "outbound": "🎯 直连"
-      },
-      {
-        "domain_suffix": [
-          "pocketcasts.com",
-          "tradingview.com",
-          "vercel.app",
-          "claw.cloud",
-          "gitlab.com",
-          "axac.us.kg",
-          "axac.dpdns.org"
-        ],
-        "outbound": "🚀 代理"
       },
       {
         "rule_set": [
