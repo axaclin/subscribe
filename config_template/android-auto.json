@@ -492,16 +492,15 @@
       },
       {
         "domain_suffix": [
+          "mail.com",
           "pocketcasts.com",
           "tradingview.com",
           "vercel.app",
           "claw.cloud",
           "gitlab.com",
+          "axac.us.kg",
           "axac.dpdns.org"
         ],
-        "outbound": "Proxy"
-      },
-      {
         "rule_set": "geosite-googlevoice",
         "outbound": "🇺🇸 US AUTO"
       },
