@@ -481,7 +481,6 @@
       },
       {
         "rule_set": [
-          "geosite-bilibili",
           "geosite-tencent",
           "geosite-alibaba",
           "geosite-jd",
@@ -505,6 +504,10 @@
         "outbound": "🇺🇸 US AUTO"
       },
       {
+        "domain_suffix": [
+          "claude.ai",
+          "anthropic.com"
+        ],
         "rule_set": [
           "geoip-ai",
           "geosite-bing",
@@ -513,10 +516,6 @@
           "geosite-chat"
         ],
         "outbound": "AI"
-      },
-      {
-        "rule_set": "geosite-github",
-        "outbound": "Github"
       },
       {
         "rule_set": "geosite-youtube",
@@ -535,6 +534,10 @@
           "geosite-google"
         ],
         "outbound": "Google"
+      },
+      {
+        "rule_set": "geosite-github",
+        "outbound": "Github"
       },
       {
         "rule_set": [
