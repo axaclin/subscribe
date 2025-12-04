@@ -224,21 +224,6 @@
       "default": "🇸🇬 狮城手动"
     },
     {
-      "tag": "TikTok",
-      "type": "selector",
-      "outbounds": [
-        "🇹🇼 台湾自动",
-        "🇺🇸 美国手动",
-        "🇹🇼 台湾手动",
-        "🇸🇬 狮城手动",
-        "🇯🇵 日本手动",
-        "🇬🇧 英国手动",
-        "🇩🇪 德国手动",
-        "🏳️‍🌈 其他地区"
-      ],
-      "default": "🇹🇼 台湾自动"
-    },
-    {
       "tag": "Github",
       "type": "selector",
       "outbounds": [
@@ -706,10 +691,6 @@
         "outbound": "Twitter"
       },
       {
-        "rule_set": "geosite-tiktok",
-        "outbound": "TikTok"
-      },
-      {
         "rule_set": "geosite-microsoft",
         "outbound": "Microsoft"
       },
@@ -934,13 +915,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-tiktok",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
         "download_detour": "🎯 直连"
       },
       {
