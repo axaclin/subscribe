@@ -236,19 +236,6 @@
       "default": "🇼🇸 TW AUTO"
     },
     {
-      "tag": "BiliBili",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "🇺🇸 US AUTO",
-        "🇭🇰 HK AUTO",
-        "🇼🇸 TW AUTO",
-        "🇸🇬 SG AUTO",
-        "🇯🇵 JP AUTO",
-        "🏳️‍🌈 Others"
-      ]
-    },
-    {
       "tag": "Github",
       "type": "selector",
       "outbounds": [
@@ -599,6 +586,7 @@
       },
       {
         "rule_set": [
+          "geosite-bilibili",
           "geosite-tencent",
           "geosite-alibaba",
           "geosite-jd",
@@ -675,10 +663,6 @@
           "geosite-google"
         ],
         "outbound": "Google"
-      },
-      {
-        "rule_set": "geosite-bilibili",
-        "outbound": "BiliBili"
       },
       {
         "rule_set": "geosite-github",
