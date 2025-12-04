@@ -193,22 +193,6 @@
       "default": "🇺🇸 美国自动"
     },
     {
-      "tag": "BiliBili",
-      "type": "selector",
-      "outbounds": [
-        "🎯 直连",
-        "🇺🇸 美国自动",
-        "🇭🇰 香港自动",
-        "🇼🇸 台湾自动",
-        "🇺🇸 美国手动",
-        "🇭🇰 香港手动",
-        "🇼🇸 台湾手动",
-        "🇸🇬 狮城手动",
-        "🇯🇵 日本手动",
-        "🏳️‍🌈 其他地区"
-      ]
-    },
-    {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
@@ -669,6 +653,7 @@
           "geosite-microsoft-cn",
           "geosite-apple-cn",
           "geosite-aws-cn",
+          "geosite-bilibili",
           "geosite-tencent",
           "geosite-alibaba",
           "geosite-jd",
@@ -728,10 +713,6 @@
       {
         "rule_set": "geosite-github",
         "outbound": "Github"
-      },
-      {
-        "rule_set": "geosite-bilibili",
-        "outbound": "BiliBili"
       },
       {
         "rule_set": [
