@@ -220,21 +220,6 @@
       "default": "🇸🇬 SG AUTO"
     },
     {
-      "tag": "TikTok",
-      "type": "selector",
-      "outbounds": [
-        "Proxy",
-        "🇺🇸 US AUTO",
-        "🇼🇸 TW AUTO",
-        "🇯🇵 JP AUTO",
-        "🇸🇬 SG AUTO",
-        "🇬🇧 UK AUTO",
-        "🇩🇪 DE AUTO",
-        "🏳️‍🌈 Others"
-      ],
-      "default": "🇼🇸 TW AUTO"
-    },
-    {
       "tag": "Crypto",
       "type": "selector",
       "outbounds": [
@@ -657,6 +642,10 @@
         "outbound": "🇬🇧 UK AUTO"
       },
       {
+        "rule_set": "geosite-category-cryptocurrency",
+        "outbound": "Crypto"
+      },
+      {
         "rule_set": [
           "geoip-ai",
           "geosite-bing",
@@ -711,14 +700,6 @@
           "geosite-twitter"
         ],
         "outbound": "Twitter"
-      },
-      {
-        "rule_set": "geosite-tiktok",
-        "outbound": "TikTok"
-      },
-      {
-        "rule_set": "geosite-category-cryptocurrency",
-        "outbound": "Crypto"
       },
       {
         "rule_set": "geosite-onedrive",
@@ -795,6 +776,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/n26.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-category-cryptocurrency",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-cryptocurrency.srs",
         "download_detour": "direct"
       },
       {
@@ -963,20 +951,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-tiktok",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-category-cryptocurrency",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-cryptocurrency.srs",
         "download_detour": "direct"
       },
       {
