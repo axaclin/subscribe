@@ -193,7 +193,7 @@
       "default": "🇺🇸 美国自动"
     },
     {
-      "tag": "Bilibili",
+      "tag": "BiliBili",
       "type": "selector",
       "outbounds": [
         "🎯 直连",
@@ -731,7 +731,7 @@
       },
       {
         "rule_set": "geosite-bilibili",
-        "outbound": "Bilibili"
+        "outbound": "BiliBili"
       },
       {
         "rule_set": [
