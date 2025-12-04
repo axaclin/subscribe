@@ -641,6 +641,7 @@
           "geosite-onedrive",
           "geosite-bing-cn",
           "geosite-microsoft-cn",
+          "geosite-bilibili",
           "geosite-tencent",
           "geosite-alibaba",
           "geosite-jd",
@@ -678,7 +679,7 @@
         "outbound": "Google"
       },
       {
-        "rule_set": "geosite-bilibili",
+        "rule_set": "geosite-biliintl",
         "outbound": "BiliBili"
       },
       {
@@ -808,6 +809,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-bank-cn.srs",
+        "download_detour": "🎯 直连"
+      },
+      {
+        "tag": "geosite-biliintl",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/biliintl.srs",
         "download_detour": "🎯 直连"
       },
       {
