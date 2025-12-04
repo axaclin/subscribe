@@ -188,22 +188,6 @@
       "default": "🇺🇸 美国自动"
     },
     {
-      "tag": "BiliBili",
-      "type": "selector",
-      "outbounds": [
-        "🎯 直连",
-        "🇺🇸 美国自动",
-        "🇭🇰 香港自动",
-        "🇹🇼 台湾自动",
-        "🇺🇸 美国手动",
-        "🇭🇰 香港手动",
-        "🇹🇼 台湾手动",
-        "🇸🇬 狮城手动",
-        "🇯🇵 日本手动",
-        "🏳️‍🌈 其他地区"
-      ]
-    },
-    {
       "tag": "Telegram",
       "type": "selector",
       "outbounds": [
@@ -641,6 +625,7 @@
           "geosite-onedrive",
           "geosite-bing-cn",
           "geosite-microsoft-cn",
+          "geosite-bilibili",
           "geosite-tencent",
           "geosite-alibaba",
           "geosite-jd",
@@ -676,10 +661,6 @@
           "geosite-google"
         ],
         "outbound": "Google"
-      },
-      {
-        "rule_set": "geosite-biliintl",
-        "outbound": "BiliBili"
       },
       {
         "rule_set": "geosite-github",
@@ -808,13 +789,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-bank-cn.srs",
-        "download_detour": "🎯 直连"
-      },
-      {
-        "tag": "geosite-biliintl",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/biliintl.srs",
         "download_detour": "🎯 直连"
       },
       {
