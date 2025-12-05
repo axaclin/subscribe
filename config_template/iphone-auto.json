@@ -670,11 +670,12 @@
       },
       {
         "rule_set": [
+          "geoip-facebook",
+          "geosite-facebook",
           "geosite-whatsapp",
           "geosite-threads",
           "geosite-instagram",
-          "geoip-facebook",
-          "geosite-facebook"
+          "geosite-meta"
         ],
         "outbound": "Meta"
       },
@@ -882,6 +883,20 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geoip-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/facebook.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-whatsapp",
         "type": "remote",
         "format": "binary",
@@ -903,17 +918,10 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geoip-facebook",
+        "tag": "geosite-meta",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-facebook",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/facebook.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/meta.srs",
         "download_detour": "direct"
       },
       {
