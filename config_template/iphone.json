@@ -933,10 +933,10 @@
         "download_detour": "🎯 直连"
       },
       {
-        "tag": "geoip-facebook",
+        "tag": "geosite-facebook",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/facebook.srs",
         "download_detour": "🎯 直连"
       },
       {
